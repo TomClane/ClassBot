@@ -1,5 +1,5 @@
 import telebot
-from settings import TG_TOKEN
+from config import TG_TOKEN
 
 bot = telebot.TeleBot(TG_TOKEN)
 
